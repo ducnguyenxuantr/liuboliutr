@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: #000;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+
+#header .nav {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 30px 15px;
+    color: #ccc;
+    display: flex;
+    text-align: center;
+}
+
+#header .header-nav {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 46px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.header-nav h2 {
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    font: inherit;
+}
+
+#header .subnav {
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    
+}
+
+#header .subnav li {
+    padding-top: 15px;
+    margin: 0px 25px;
+    display: inline-block;
+    
+}
+
+.subnav li a {
+    list-style-type: none;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.subnav li:hover a {
+    color: red;
+}
+
+#header .header-button {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.header-button .header-btn {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    padding: 2px;
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: #ccc;
+}
+
+.header-btn .header-icon {
+    margin-left: 3px;
+}
+
+.header-button .header-btn:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+#slider > .Wedding-parent {
+    opacity: 0.4;
+}
+
+#slider .Wedding-parent {
+    margin-top: 106px;
+    position: relative;
+    /* display: flex;
+    justify-items: center;
+    align-items: center; */
+    padding-top: 56%;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('/assets/img/Wedding/26079ab060401d8a76039e985d63a3e9.jpe');
+}
+
+.Wedding-Salon {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 570px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #000;
+}
+
+.Wedding-Salon .Wedding-container {
+    width: 450px;
+    padding: 55px 0px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.Wedding-cotainer-body {
+    margin-top: 30px;
+}
+
+.Wedding-container-desciption {
+    margin-top : 35px;
+}
+
+.Wedding-container-button {
+    margin-top: 40px;
+}
+
+.Wedding-button-radius {
+    display: inline-block;
+    padding: 12px;
+    border: 2px solid #000;
+    cursor: pointer;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    border-radius: 10px;
+}
+
+.Wedding-button {
+    text-decoration: none;
+    color: #000;
+}
+
+#slider .Silhouettes {
+    padding-top: 90px;
+}
+
+.subSilhouettes {
+    padding: 0px 40px;
+}
+
+
+
+.Sil-content {
+    text-align: center;
+}
+
+.Sil-content-header {
+    font-size: 32px;
+}
+
+.Sil-content-desciption {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.parent-Sil-image {
+    padding: 0px 40px;
+    display: flex;
+}
+
+.Sil-image {
+    display: flex;
+    margin-top: 70px;
+    float: left;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Sil-image .Sil-image-items {
+    margin-top: 30px;
+    padding: 0px 15px;
+    width: 25%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Sil-image-items .Sil-image-text {
+    margin-top: 30px;
+}
+
+.Sil-image-items p {
+    font-size: 24px;
+}
+
+.Sil-image-items img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Des-Contact {
+    margin-top: 105px;
+    display: flex;
+    background-color: #ccc;
+}
+
+.sub-Des-Contact {
+    
+    width: 1200px;
+    margin: 0px auto;
+    padding: 105px 40px;
+}
+
+.Des-Contact-container {
+    display: flex;
+    
+}
+
+.Des-content {
+    flex-grow: 1 ;
+    padding: 0px 15px;
+}
+
+.Des-Emails {
+    flex-grow: 1;
+}
+
+.Des-description {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.Des-content .Subscribe {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.Des-Emails {
+    display: flex;
+    flex-direction: column;
+}
+
+.Des-Email {
+    margin-top: 12px;
+    padding: 14px 19px;
+    border-radius: 12px;
+    border: 1px;
+    background-color: rgba(36, 36, 36, 0.12);
+    color: rgb(36, 36, 36);
+    opacity: 0.6;
+}
+
+.Des-button {
+    padding: 14px 19px;
+    margin-top: 24px;
+    border-radius: 12px;
+    border: 1px;
+    background-color: #c81b40;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.Des-image {
+    background-color: #ccc;
+}
+
+.sub-Des-image {
+    background-image: url('/assets/img/image/One_Piece_Logo.svg.png');
+    padding-top: 38%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#footer {
+    padding-top: 38px;
+    background-color: #000;
+    opacity: 0.7;
+}
+
+.subfooter {
+    width: 1200px;
+    margin: 0px auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer-header {
+    font-size: 24px;
+    color: #fff;
+    /* line-height: 46px; */
+}
+
+.footer-menu {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-menu .footer-items {
+    width: calc(100%/9);
+    /* margin: 10px 25px; */
+    line-height: 42px;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-menu .footer-items:hover {
+    color: red;
+}
+
+.footer-menu-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.header-button {
+    display: flex;
+}
+
+#footer .parent-footer-des {
+    margin: 15px 0px;
+    margin-top: 32px;
+}
+
+.footer-description {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-description p {
+    font-size: 12px;
+    margin: 0px 12px;
+}
