@@ -1,0 +1,48 @@
+@media (max-width: 740px) {
+    .subfooter {
+        width: 100%;
+    }
+
+    #header .subnav {
+        display: none;
+    }
+
+    #header .header-button {
+        display: none;
+    }
+
+    #header .header-button-menu {
+        display: block;
+    }
+
+    .header-nav {
+        text-align: left;
+    }
+
+    #header .header-nav {
+        flex-grow: 1;
+    }
+
+    #header .header-button-menu {
+        flex-grow: 1;
+        text-align: right;
+        line-height: 46px;
+    }
+
+    .header-button-menu i {
+        font-size: 24px;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Sil-image .Sil-image-items {
+        width: 50%;
+    }
+
+    .Des-Contact-container {
+        flex-direction: column;
+    }
+}

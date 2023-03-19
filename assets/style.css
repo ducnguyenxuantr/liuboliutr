@@ -21,7 +21,7 @@ html {
 #header .nav {
     max-width: 1200px;
     margin: 0px auto;
-    padding: 30px 15px;
+    padding: 30px 22px;
     color: #ccc;
     display: flex;
     text-align: center;
@@ -93,6 +93,11 @@ html {
     background-color: #fff;
     color: #000;
     cursor: pointer;
+}
+
+#header .header-button-menu {
+    display: none;
+    cursor: pointer;;
 }
 
 #slider > .Wedding-parent {
@@ -333,9 +338,12 @@ html {
 }
 
 .footer-menu-icon {
-    display: flex;
-    justify-content: center;
     margin-top: 30px;
+    display: flex;
+    border-bottom: 1px solid;
+    border-bottom-color: aquamarine;
+    padding-bottom: 18px;
+    justify-content: center;
 }
 
 .header-button {
@@ -357,4 +365,37 @@ html {
 .footer-description p {
     font-size: 12px;
     margin: 0px 12px;
+}
+
+.modal {
+    position: fixed;
+    margin-top: 106px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #000;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-body {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.modal-body-item {
+    margin: 10px 0px;
+}
+
+.modal-body .modal-body-item:hover {
+    color: #c81b40;
+    cursor: pointer;
 }

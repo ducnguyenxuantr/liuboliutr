@@ -4,9 +4,11 @@
         <title>My Bridal</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="assets/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/themify-icons/themify-icons.css">
+        <link rel="stylesheet" href="assets/responsive.css">
     </head>
-
+<body>
     <div id="header">
        
             <div class="nav">
@@ -36,6 +38,14 @@
                     </div>
                 </div>
 
+                <div id="header-id-btn-menu" class="header-button-menu">
+                    <i class="ti-menu"></i>
+                </div>
+
+                <!-- <div class="header-button-close">
+                    <i class="ti-close"></i>
+                </div> -->
+
             </div>
         
     </div>
@@ -43,23 +53,25 @@
     <div id="slider">
             <!--begin Wedding Salon-->
         <div class="Wedding-parent">
-            <div class="Wedding-Salon">
-                <div class="Wedding-container">
-                    <div class="subWedding-container">
-                        <div class="Wedding-content-header">
-                            Wedding Salon
-                        </div>
-                        <h2 class="Wedding-cotainer-body">
-                            My Bridal
-                        </h2>
-                        <div class="Wedding-container-desciption">
-                            Take a look at our best 
-                        </div>
-                        <div class="Wedding-container-button">
-                            <div class="Wedding-button-radius">
-                                <a href="" class="Wedding-button">
-                                    See Bridal Collections
-                                </a>
+            <div class="Wedding-sub">
+                <div class="Wedding-Salon">
+                    <div class="Wedding-container">
+                        <div class="subWedding-container">
+                            <div class="Wedding-content-header">
+                                Wedding Salon
+                            </div>
+                            <h2 class="Wedding-cotainer-body">
+                                My Bridal
+                            </h2>
+                            <div class="Wedding-container-desciption">
+                                Take a look at our best 
+                            </div>
+                            <div class="Wedding-container-button">
+                                <div class="Wedding-button-radius">
+                                    <a href="" class="Wedding-button">
+                                        See Bridal Collections
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -209,4 +221,43 @@
         </div>
     </div>
 
+    <div id="modal-id" class="modal">
+        <div class="modal-container">
+            <div class="modal-body">
+                <div class="modal-body-item">Collections</div>
+                <div class="modal-body-item">Accessories</div>
+                <div class="modal-body-item">Shoes</div>
+                <div class="modal-body-item">Services</div>
+                <div class="modal-body-item">About us</div>
+                <div class="modal-body-item">Contacts</div>
+            </div>
+            <div class="header-button">
+                <div class="header-btn">
+                    <i class="header-icon ti-instagram"></i>
+                </div>
+                <div class="header-btn">
+                    <i class="header-icon ti-facebook"></i>
+                </div>
+                <div class="header-btn">
+                    <i class=" header-icon ti-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var isClose = document.getElementById('header-id-btn-menu');
+        var value_button = document.getElementById('modal-id');
+        isClose.onclick = function() {
+            var subClose = value_button.style.display === "none";
+            if(subClose){
+                value_button.style.display = "block";
+            }
+            else {
+                value_button.style.display= "none";
+            }
+        }
+    </script>
+
+</body>
 </html>
