@@ -1,4 +1,4 @@
-@media (max-width: 740px) {
+@media (max-width: 1200px) {
     .subfooter {
         width: 100%;
     }
@@ -45,4 +45,58 @@
     .Des-Contact-container {
         flex-direction: column;
     }
+
+    .Wedding-Salon {
+        top: 10%;
+        padding: 2%;
+        width: auto;
+    }
+
+    .Wedding-Salon .Wedding-container {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .Wedding-cotainer-body {
+        margin-top: 4px;
+    }
+
+    .Wedding-container-desciption {
+        margin-top: 4px;
+    }
+
+    .Wedding-container-button {
+        margin-top: 4px;
+    }
+
+    .Wedding-button-radius {
+        padding: 4px;
+    }
+
+    #slider .Silhouettes {
+        padding: 0px 12px;
+        padding-top: 40px;
+    }
+
+    .subSilhouettes {
+        padding: 0px 8px;
+    }
+
+    .Silhouettes .parent-Sil-image {
+        padding: 0px ;
+    }
+
+    .Sil-image {
+        margin-top: 4px;
+    }
+
+    /* .modal {
+        display: none;
+    } */
 }
+
+/* @media screen and (min-width: 741px) and (max-width: 1200px) {
+    .subfooter {
+        width: auto;
+    }
+} */

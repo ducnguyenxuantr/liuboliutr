@@ -53,7 +53,7 @@
     <div id="slider">
             <!--begin Wedding Salon-->
         <div class="Wedding-parent">
-            <div class="Wedding-sub">
+            
                 <div class="Wedding-Salon">
                     <div class="Wedding-container">
                         <div class="subWedding-container">
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+    
         </div>
         <!-- end Wedding Salon-->
         <!-- begin Silhouettes-->
@@ -249,12 +249,12 @@
         var isClose = document.getElementById('header-id-btn-menu');
         var value_button = document.getElementById('modal-id');
         isClose.onclick = function() {
-            var subClose = value_button.style.display === "none";
+            var subClose = value_button.style.display === "block";
             if(subClose){
-                value_button.style.display = "block";
+                value_button.style.display = "none";
             }
             else {
-                value_button.style.display= "none";
+                value_button.style.display= "block";
             }
         }
     </script>
